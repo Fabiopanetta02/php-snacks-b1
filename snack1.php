@@ -2,26 +2,26 @@
 
 $matches = [
 	[
-		"hometeam" => "Squadra 1",
-		"guesteam" => "Squadra 2",
+		"homeTeam" => "Squadra 1",
+		"guestTeam" => "Squadra 2",
 		"homePoints" => "55",
 		"guestPoints" => "62"
 	],
 	[
-		"hometeam" => "Squadra 3",
-		"guesteam" => "Squadra 4",
+		"homeTeam" => "Squadra 3",
+		"guestTeam" => "Squadra 4",
 		"homePoints" => "43",
 		"guestPoints" => "60"
 	],
 	[
-		"hometeam" => "Squadra 5",
-		"guesteam" => "Squadra 6",
+		"homeTeam" => "Squadra 5",
+		"guestTeam" => "Squadra 6",
 		"homePoints" => "72",
 		"guestPoints" => "40"
 	],
 	[
-		"hometeam" => "Squadra 7",
-		"guesteam" => "Squadra 8",
+		"homeTeam" => "Squadra 7",
+		"guestTeam" => "Squadra 8",
 		"homePoints" => "56",
 		"guestPoints" => "55"
 	]
@@ -44,7 +44,7 @@ $matches = [
         <?php for($i=0; $i < count($matches); $i++) :?>
             <li>
                 <?= 
-                $matches[$i]["hometeam"] ." - " .$matches[$i]["guesteam"] ." | " .$matches[$i]["homePoints"] ."-" .$matches[$i]["guestPoints"];
+                $matches[$i]["homeTeam"] ." - " .$matches[$i]["guestTeam"] ." | " .$matches[$i]["homePoints"] ."-" .$matches[$i]["guestPoints"];
                 ?>
             </li>
         <?php endfor; ?>
